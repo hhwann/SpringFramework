@@ -1,4 +1,4 @@
-package com.hhkim.calendiary;
+package com.hhkim.calendiary.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -33,7 +33,19 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "home";
+		return "login";
+	}
+	@RequestMapping(value="/calendar")
+	public String calender(Model mv) {
+		return "calendar";
+	}
+	@RequestMapping(value="/diary")
+	public String diary(Model mv) {
+		return "diary";
+	}
+	@RequestMapping(value="/d_day")
+	public String d_day(Model mv) {
+		return "d_day";
 	}
 	
 }
