@@ -89,7 +89,7 @@ button {
     <div id="container">
         <div class="day_box">
             <p>3월 1일</p>
-            <p>기록</p>
+            <p>기록test</p>
         </div>
         <div class="memo_box">
 
