@@ -47,5 +47,9 @@ public class HomeController {
 	public String d_day(Model mv) {
 		return "d_day";
 	}
+	@RequestMapping(value="/a")
+	public String a(Model mv) {
+		return "a";
+	}
 	
 }
